@@ -1,5 +1,6 @@
 const assert = require('assert');
   var greet = function(){
+    //display hello Yanga
 console.log("Hello Yanga");
 }
 greet();
