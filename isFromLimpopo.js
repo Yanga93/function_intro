@@ -1,7 +1,7 @@
+const assert = require('assert');
 var isFromLimpopo = function(regNum){
   var location = regNum.endsWith('L');
       console.log(location);
         return location;
 }
-
-  isFromLimpopo('L'); 'True','False';
+  assert.equal(isFromLimpopo('L'), true);
