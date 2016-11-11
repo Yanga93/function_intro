@@ -1,5 +1,7 @@
+const assert = require('assert');
 var isTuesday = function(day){
   var isDay = day.startsWith('Tue');
   console.log(isDay);
+  return isDay;
 };
-isTuesday('Tuesday'); 'True', 'False';
+assert.equal(isTuesday('Tue'), true);
